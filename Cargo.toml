@@ -7,3 +7,4 @@ authors = [ "David Bergström <david-bergstrom@outlook.com>" ]
 [dependencies]
 
 image = "*"
+getopts = "0.2"
