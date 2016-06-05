@@ -18,7 +18,7 @@ fn pixelize_image(img: &image::DynamicImage) -> image::DynamicImage {
 }
 
 fn print_usage(program: &str, opts: Options) {
-    let brief = format!("Usage: {} FILE [options]", program);
+    let brief = format!("Usage: {} IMAGE -o OUTPUT_IMAGE", program);
     print!("{}", opts.usage(&brief));
 }
 
