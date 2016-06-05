@@ -1,0 +1,9 @@
+[package]
+
+name = "pixelize"
+version = "0.0.1"
+authors = [ "David Bergström <david-bergstrom@outlook.com>" ]
+
+[dependencies]
+
+image = "*"
